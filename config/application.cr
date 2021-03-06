@@ -6,6 +6,6 @@ class Application
 end
 
 Application.configure do |settings|
-  settings.name = "Lucky Jumpstart"
-  settings.support_email = "no-reply@lucky_jumpstart.com"
+  settings.name = "Application Config"
+  settings.support_email = "no-reply@application_config.com"
 end
