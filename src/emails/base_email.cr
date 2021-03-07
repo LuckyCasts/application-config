@@ -6,6 +6,6 @@ abstract class BaseEmail < Carbon::Email
   end
 
   def default_from
-    Carbon::Address.new("Support", "no-reply@application_config.com")
+    Application.settings.support_email
   end
 end
